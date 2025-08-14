@@ -17,9 +17,9 @@
 -----
 
 ## 📌 Why Participate
-- **Strengthen Security** ; Prevent manipulation of zk-SNARK parameters.
-- **Ensure Decentralization** ; Multiple participants reduce trust in any single party.
-- **Guarantee Transparency** ; Fully auditable, open-source process.
+- **Strengthen Security** : Safeguard zk-SNARK parameters with strong cryptography and secure protocols.
+- **Ensure Decentralization** : Use multiple independent participants to eliminate single-entity trust.
+- **Guarantee Transparency** : Make the process fully auditable and open-source for public verification.
 
 
 ## 🤝 How You Can Contribute
@@ -32,6 +32,16 @@
 ## **Update & Upgrade System**
 ```
 sudo apt update && sudo apt upgrade -y
+```
+## **Build Essential Tools
+```
+sudo apt install -y build-essential \
+  curl \
+  wget \
+  git \
+  unzip \
+  pkg-config \
+  software-properties-common
 ```
 @@ -45,8 +73,46 @@ mkdir ceremony && cd ceremony
 ```

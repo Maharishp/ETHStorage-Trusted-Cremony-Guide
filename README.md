@@ -33,7 +33,7 @@
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-## **Build Essential Tools
+## **Build Essential Tools**
 ```
 sudo apt install -y build-essential \
   curl \
@@ -43,26 +43,47 @@ sudo apt install -y build-essential \
   pkg-config \
   software-properties-common
 ```
-@@ -45,8 +73,46 @@ mkdir ceremony && cd ceremony
+## **Install NVM**
+Required for ceremony CLI
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+```
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+```
+```
+nvm install 18
+nvm use 18
+nvm alias default 18
+```
+```
+source ~/.bashrc
+```
+<img width="518" height="119" alt="Screenshot 2025-08-14 194359" src="https://github.com/user-attachments/assets/dcf6a5e0-0f48-45be-8033-c79d41f5af52" />
+
+
+## **Create and Navigate into directory**
+```
+mkdir ceremony && cd ceremony
+```
+## **Install NPM package**
 ```
 npm install -g @p0tion/phase2cli
 ```
-<img width="4020" height="920" alt="image" src="https://github.com/user-attachments/assets/775d9017-7516-47c3-b088-312ccff7a152" />
-
 
 ## **Authenticate Github**
 Running this line of code will show you alink to click that will direct you to [Github - http://github.com/login/device ](http://github.com/login/device)
 ```
 phase2cli auth
 ```
-<img width="4020" height="1396" alt="image" src="https://github.com/user-attachments/assets/c47b38e1-0e90-4c49-b213-6a44e4c89183" />
+<img width="1020" height="501" alt="Screenshot 2025-08-14 183812" src="https://github.com/user-attachments/assets/27718aff-b87f-42d6-982a-f7a162c552ed" />
+
 
 - [ ] Authenticate Github and copy the code from terminal
 - [ ] Paste code on Github page
 - [ ] Check back terminal to confirm you're IN. 
-
-<img width="3552" height="624" alt="image" src="https://github.com/user-attachments/assets/e0d34f7d-ac68-4a81-840b-3bb47effea87" />
-
 
 ## Open a new screen/session with command 
 ```
@@ -75,7 +96,10 @@ phase2cli contribute
 - [ ] Use the arrow key, select the second option **(EthStorage V1 Trusted Setup Ceremony)**
 - [ ] Select ENTER and continue
 - [ ] Select ENTER again to use the Random selection. 
-<img width="4020" height="1058" alt="image" src="https://github.com/user-attachments/assets/7603d8cb-c81e-45fd-b89f-7a5feebb092a" />
+<img width="1911" height="306" alt="Screenshot 2025-08-14 190400" src="https://github.com/user-attachments/assets/04d45686-e627-4272-8672-3c0babe45c07" />
+
+
+<img width="1919" height="222" alt="Screenshot 2025-08-14 190506" src="https://github.com/user-attachments/assets/045b73c2-bba6-4534-ad2d-7a74e003aff4" />
 
 
 ## Screen Commands
